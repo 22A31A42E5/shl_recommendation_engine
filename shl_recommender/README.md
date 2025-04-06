@@ -29,6 +29,6 @@ Streamlit UI displays recommendations with test details.
 📊 Evaluation
 Use benchmark dataset to calculate:
 
-Mean Recall@3
+Mean Recall@3 : 0.6666666666666666
 
-MAP@3   
+MAP@3 : 0.6666666666666666
