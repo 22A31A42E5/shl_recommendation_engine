@@ -2,10 +2,11 @@
 
 This project recommends SHL tests based on user queries using semantic search with Sentence Transformers.
 
-## 🔗 Live Demo
-- **Frontend (Streamlit)**: [https://huggingface.co/spaces/hermoine9/frontend](https://huggingface.co/spaces/hermoine9/frontend)
-- **API Endpoint (FastAPI)**: [https://huggingface.co/spaces/hermoine9/shl-fastapi](https://huggingface.co/spaces/hermoine9/shl-fastapi)
+Try out the live demo:  
+👉 [Streamlit Frontend](https://shlrecommendationengine-g6twgjfebfxmnrn32cdihl.streamlit.app/)  
+👉 [API Endpoint](https://hermoine9-shl-fastapi.hf.space/recommend)
 
+---
 ## 🛠️ Tools & Stack
 - **Backend**: FastAPI + SentenceTransformers
 - **Frontend**: Streamlit
