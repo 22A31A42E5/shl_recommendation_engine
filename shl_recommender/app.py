@@ -70,14 +70,14 @@ if query:
 
         st.subheader("✨ Recommended Tests")
 
-        for i, item in enumerate(results, 1):
+        for i, item in enumerate(results.get("recommended_assessments", []), 1):
             try:
-                test_name = item.get("Test Name", "N/A")
-                remote = item.get("Remote Testing", "N/A")
-                adaptive = item.get("Adaptive/IRT", "N/A")
-                test_type = item.get("Test Type", "N/A")
-                duration = item.get("Duration", "N/A")
-                link = item.get("Link", "#")
+                test_name = item.get("description", "N/A")
+                remote = item.get("remote_support", "N/A")
+                adaptive = item.get("adaptive_support", "N/A")
+                test_type = ", ".join(item.get("test_type", []))
+                duration = item.get("duration", "N/A")
+                link = item.get("url", "#")
 
                 st.markdown(f"""
                     <div class='recommendation-card'>
