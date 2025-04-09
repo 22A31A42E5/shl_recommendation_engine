@@ -65,7 +65,7 @@ query = st.text_input("🔍 Enter your query:")
 
 if query:
     try:
-        response = requests.post("https://hermoine9-shl-fastapi.hf.space/recommend", json={"query": query})
+        response = requests.post("https://sailajap-shl-fastapi.hf.space/recommend", json={"query": query})
         results = response.json()
 
         st.subheader("✨ Recommended Tests")
